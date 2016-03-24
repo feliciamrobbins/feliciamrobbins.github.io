@@ -7,6 +7,7 @@ site: clean
 
 build: site
 	stack exec site -- build
+	bower i
 
 watch: site build
 	stack exec site -- watch -h 0.0.0.0
@@ -17,7 +18,7 @@ clean:
 
 clone:
 	rm -rf _site
-	git clone git@github.com:carymrobbins/carymrobbins.github.io.git _site
+	git clone git@github.com:feliciamrobbins/feliciamrobbins.github.io.git _site
 
 check_branch:
 	@echo "* Validating on hakyll branch"

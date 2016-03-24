@@ -1,7 +1,3 @@
-# caryrobbins.com
+# feliciamrobbins.github.io
 
-## Setup
-
-```
-$ cabal install -j -fhighlighting --dependencies-only
-```
+Forked from https://github.com/carymrobbins/carymrobbins.github.io

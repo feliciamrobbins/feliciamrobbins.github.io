@@ -1,11 +1,11 @@
 {
-  "name": "caryrobbins.com",
+  "name": "feliciamrobbins.github.io",
   "version": "0.0.0",
   "authors": [
-    "Cary M. Robbins <carymrobbins@gmail.com>"
+    "Felicia M. Robbins <feliciamrobbins@gmail.com>"
   ],
   "license": "None",
-  "homepage": "caryrobbins.com",
+  "homepage": "feliciamrobbins.github.io",
   "ignore": [
     "**/.*",
     "node_modules",

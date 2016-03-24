@@ -1,60 +1,45 @@
+$coral: #ffb499;
+$aqua: #ccffff;
+
 body {
+  // NOTE: Don't optimize into a single 'background' property.
+  background-image: url("/images/border-coral.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-color: $aqua;
   color: black;
-  font-size: 16px;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Dancing Script', serif;
 }
 
-.sourceCode {
-  letter-spacing: 0;
-  // Provide horizontal scrolling for long lines.
-  overflow: auto;
-  word-wrap: normal;
-  white-space: pre;
-}
-
-// Support plain-text code blocks.
-pre.text > code {
-  @extend .sourceCode
-}
-
-h2 {
-  font-weight: 700;
-}
-
-.content {
-  letter-spacing: 0.05em;
-}
-
-#header {
-  margin-bottom: 30px;
-  padding: 12px 0 12px 0;
-}
-
-#logo a {
-  color: black;
-  float: left;
-  font-size: 25px;
+a, a:hover, a:active, a:visited, a:focus {
   text-decoration: none;
-  font-family: 'Merriweather', serif;
-  letter-spacing: 3px;
 }
 
-#header #social {
-  text-align: right;
-
+.site-logo {
+  color: black;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
   a {
-    margin-left: 5px;
+    color: black;
   }
 }
 
-.footer {
-  margin-bottom: 20px;
-
-  .hakyll {
-    text-align: right;
+.nav-menu {
+  padding-top: 20px;
+  text-align: center;
+  .menu-items {
+    list-style: none;
+    li {
+      display: inline;
+      padding-right: 80px;
+      a {
+        color: black;
+        font-size: 40px;
+      }
+      a:hover {
+        color: $coral;
+      }
+    }
   }
-}
-
-.article-list {
-  list-style-type: none;
 }
