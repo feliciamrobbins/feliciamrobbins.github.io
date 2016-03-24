@@ -18,7 +18,7 @@ clean:
 
 clone:
 	rm -rf _site
-	git clone git@github.com:feliciamrobbins/feliciamrobbins.github.io.git _site
+	git clone -b master git@github.com:feliciamrobbins/feliciamrobbins.github.io.git _site
 
 check_branch:
 	@echo "* Validating on hakyll branch"
